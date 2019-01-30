@@ -32,9 +32,15 @@ Clone the repos from GitHub
 # clone this repo
 git clone https://github.com/robot-websockets/trainbot-2-commands.git
 
+
+
 # clone the main server
 # this will be on port: 5001
 git clone https://github.com/robot-websockets/main-server.git
+
+cd main-server
+npm install
+cd ..
 
 # got to: http://your-ip-address:5001/
 # for the dashboard
@@ -44,11 +50,14 @@ git clone https://github.com/robot-websockets/main-server.git
 # this will be on port: 5002
 git clone https://github.com/robot-websockets/main-server.git
 
+# read the readme in the main-server folder and install the dependencies
+
 
 # clone the barcode server
 # this will be on port: 5003
 git clone https://github.com/robot-websockets/barcode-server.git
 
+# read the readme in the main-server folder and install the dependencies
 
 
 ```
