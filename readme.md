@@ -14,24 +14,11 @@ place all folders in a folder in the Pi's home dir called trainbot-2
 
 ```
 
-Install pm2 process manager.
-
-```javascript
-sudo npm install pm2 -g
-```
-
-To run pm2 at boot run the following script:
-
-```bash
-sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u pi --hp /home/pi/trainbot-2/trainbot-2-commands
-```
-
-Clone the repos from GitHub
+## Clone the repos from GitHub
 
 ```BASH
 # clone this repo
 git clone https://github.com/robot-websockets/trainbot-2-commands.git
-
 
 
 # clone the main server
@@ -62,10 +49,34 @@ git clone https://github.com/robot-websockets/barcode-server.git
 
 ```
 
-to run all apps enter the following from this folder.
+## Install pm2 process manager.
 
-```bash
-pm2 start ecosystem.config.js
+```javascript
+sudo npm install pm2 -g
 ```
 
-To view how to do things follow https://pm2.io/doc/en/runtime/overview/
+To run pm2 at boot run the following script:
+
+```bash
+# execute the ecosystem.config.js file
+pm2 start /path-to-file/ecosystem.config.js
+
+# save the config file so it can be run at startup
+pm2 save
+
+# copy and past the result
+pm2 startup
+
+```
+
+### Other commands
+
+https://pm2.io/doc/en/runtime/overview/
+
+```bash
+#list all processes
+pm2 ls
+
+#view dashboard
+pm2 monit
+```
