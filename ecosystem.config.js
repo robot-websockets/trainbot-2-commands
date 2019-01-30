@@ -8,7 +8,7 @@ module.exports = {
         },
         {
             name: 'barcode',
-            script: '../barcode/server.py',
+            script: '../barcode-server/server.py',
             interpreter: '/usr/bin/python3.5',
             autorestart: true,
             watch: false

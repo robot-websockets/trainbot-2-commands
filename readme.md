@@ -29,9 +29,12 @@ sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 start
 Clone the repos from GitHub
 
 ```BASH
+# clone this repo
+git clone https://github.com/robot-websockets/trainbot-2-commands.git
+
 # clone the main server
 # this will be on port: 5001
-https://github.com/robot-websockets/main-server.git
+git clone https://github.com/robot-websockets/main-server.git
 
 # got to: http://your-ip-address:5001/
 # for the dashboard
@@ -39,12 +42,12 @@ https://github.com/robot-websockets/main-server.git
 
 # clone the opencv server
 # this will be on port: 5002
-https://github.com/robot-websockets/main-server.git
+git clone https://github.com/robot-websockets/main-server.git
 
 
 # clone the barcode server
 # this will be on port: 5003
-https://github.com/robot-websockets/barcode-server.git
+git clone https://github.com/robot-websockets/barcode-server.git
 
 
 
