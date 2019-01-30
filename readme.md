@@ -7,7 +7,6 @@ place all folders in a folder in the Pi's home dir called trainbot-2
 ```
 ~/trainbot-2
             - trainbot-2-commands
-            - robot-dashboard
             - openCV-server
             - main-server
             - barcode-server
@@ -17,7 +16,7 @@ place all folders in a folder in the Pi's home dir called trainbot-2
 ## Clone the repos from GitHub
 
 ```BASH
-# clone this repo
+# clone this repo inside ~/trainbot-2
 git clone https://github.com/robot-websockets/trainbot-2-commands.git
 
 
@@ -33,14 +32,14 @@ cd ..
 # for the dashboard
 
 
-# clone the opencv server
+# clone the opencv server inside ~/trainbot-2
 # this will be on port: 5002
 git clone https://github.com/robot-websockets/main-server.git
 
 # read the readme in the main-server folder and install the dependencies
 
 
-# clone the barcode server
+# clone the barcode server inside ~/trainbot-2
 # this will be on port: 5003
 git clone https://github.com/robot-websockets/barcode-server.git
 
