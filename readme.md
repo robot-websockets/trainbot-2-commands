@@ -20,7 +20,7 @@ place all folders in a folder in the Pi's home dir called trainbot-2
 git clone https://github.com/robot-websockets/trainbot-2-commands.git
 
 
-# clone the main server
+# clone the main server inside ~/trainbot-2
 # this will be on port: 5001
 git clone https://github.com/robot-websockets/main-server.git
 
