@@ -29,7 +29,24 @@ sudo env PATH=$PATH:/usr/local/bin /usr/local/lib/node_modules/pm2/bin/pm2 start
 Clone the repos from GitHub
 
 ```BASH
-# TODO: add the repos urls
+# clone the main server
+# this will be on port: 5001
+https://github.com/robot-websockets/main-server.git
+
+# got to: http://your-ip-address:5001/
+# for the dashboard
+
+
+# clone the opencv server
+# this will be on port: 5002
+https://github.com/robot-websockets/main-server.git
+
+
+# clone the barcode server
+# this will be on port: 5003
+https://github.com/robot-websockets/barcode-server.git
+
+
 
 ```
 

@@ -12,6 +12,13 @@ module.exports = {
             interpreter: '/usr/bin/python3.5',
             autorestart: true,
             watch: false
+        },
+        {
+            name: 'opencv-server',
+            script: '../openCV-server/server.py',
+            interpreter: '/usr/bin/python3.5',
+            autorestart: true,
+            watch: false
         }
     ]
 };
